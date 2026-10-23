@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: white;
+}
+
+.logo{
+    color: #d32f2f;
+    font-style: italic;
+}
+
+.hero{
+    height: 400px;
+    background-image: url(../img/cuscuz1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+}
+
+.faixa-amarela{
+    color: #ffcc00;
+    width: 100%;
+    padding: 10px;
+}
+
+.ingredientes{
+    padding: 30px;
+    background: #fffbe6;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.ingredientes h3{
+    color: #d32f2f;
+    font-size: 22px;
+    border-left: 5px solid #ffcc00;
+    padding-left: 10px;
+}
+
+.ingredientes ul li{
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.preparo{
+    padding: 30px;
+    max-width: 700px;
+    margin: 0 auto;
+    background: white;
+    background-color: #fffbe6;
+}
+
+.preparo h3{
+    color: #d32f2f;
+    font-size: 22px;
+    border-left: 5px solid #ffcc00;
+    padding-left: 10px;
+}
+
+.preparo ol{
+    padding-left: 20px;
+}
+
+.preparo ol li{
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.mais-receitas {
+    padding: 30px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.mais-receitas h3 {
+    color: #d32f2f;
+    border-left: 5px solid #ffcc00;
+    padding-left: 10px;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.card {
+    width: 32%; /* cada card ocupa 1/3 */
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden; /* corta o que sobra */
+}
+
+.card img {
+    width: 100%;
+    height: 140px; /* TRAVA A ALTURA AQUI */
+    object-fit: cover; /* CORTA SEM ESTICAR - O SEGREDO */
+    display: block;
+}
+
+.card p {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.rodape {
+    background: #d32f2f;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
